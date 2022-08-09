@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 630px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.contenedor-imagen{
+    width: 110%;
+    height: 100%;
+}
+
+.contenedor-textos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 30px;
+}
+
+.mini-titulo{
+    margin-bottom: 20px;
+}
+
+.titulito{
+    letter-spacing: 7px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+
+.titulo-grande{
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+}
+
+.parrafo{
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    color: hsl(228, 12%, 48%);
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.precio-rebaja{
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+}
+
+.precio-viejo{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.contenedor-boton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.boton:hover{
+    background-color: #6a994e;
+    cursor: pointer;    
+}
+
+.carrito{
+    margin-right: 10px;
+}
+
+
+
+
+.precios{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.contenedor-pviejo{
+    justify-self: flex-end;
+    position: relative;
+    margin-left: 30px;
+}
+
+
+
+.imagen{
+    position: relative;
+    z-index: ;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 8px 0 0 8px;
+}
