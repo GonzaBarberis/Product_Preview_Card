@@ -47,17 +47,18 @@ body{
 }
 
 .titulo{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
 .titulo-grande{
     font-family: 'Fraunces', serif;
     line-height: 1;
+    font-size: 40px;
 }
 
 .parrafo{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .descripcion{
